@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "An Electron application with React",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
+  "author": "Ananta Sharma",
+  "license": "MIT",
+  "homepage": "https://github.com/anantasharma510/port-killer",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --cache .",
