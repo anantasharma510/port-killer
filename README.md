@@ -1,4 +1,6 @@
 # Port Killer ⚡
+![Build Status](https://github.com/anantasharma510/port-killer/actions/workflows/build.yml/badge.svg)
+![Version](https://img.shields.io/github/v/release/anantasharma510/port-killer)
 
 > "Error: EADDRINUSE" — The nightmare we all know.
 
@@ -25,10 +27,41 @@ It's a minimalist, lightning-fast desktop app that sits quietly in your tray (we
 - **Dev Mode**: Filters out system noise so you only see your tools.
 - **Admin Mode**: Restart as Admin with one click to kill stubborn tasks.
 
-## Download
-You can grab the latest installer from the releases page (or build it yourself!).
+## 📥 Download (For Users)
+Don't want to build it? Just download the installer and run it.
 
-## Built With
+👉 **[Download Latest Version](https://github.com/anantasharma510/port-killer/releases/latest)**
+
+1.  Click the link above.
+2.  Download the latest `port-killer-setup.exe`.
+3.  Install and enjoy!
+
+## 🛠️ Development (For Developers)
+Want to contribute or build it yourself?
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/anantasharma510/port-killer.git
+cd port-killer
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run in Dev Mode
+```bash
+npm run dev
+```
+
+### 4. Build for Windows
+This creates the `.exe` installer in the `dist/` folder.
+```bash
+npm run build:win
+```
+
+## Features
 - **Electron** (for the native feel)
 - **React** (for the UI)
 - **TailwindCSS** (for the clean, dark aesthetic)
